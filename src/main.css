@@ -1,0 +1,7 @@
+.amis-scope img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.amis-scope .amis-routes-wrapper{
+    min-height: 100vh;
+}

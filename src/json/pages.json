@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "label": "",
+      "children": [
+        {
+          "label": "信息面板",
+          "url": "/",
+          "schemaApi": "/page.json"
+        },
+        {
+          "label": "父页面",
+          "url": "/parent",
+          "rewrite": "/parent/pageA",
+          "children": [
+            {
+              "label": "子页面",
+              "url": "pageA",
+              "schemaApi": "/page.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
